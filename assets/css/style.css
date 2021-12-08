@@ -128,4 +128,11 @@ p,h1,h2,h3,h4,h5,h6{
     .jawaherLogo{
         margin:10px 0
     }
+    .loginImg{
+        margin-bottom: 40px;
+    }
+    .loginBody h6{
+        margin-bottom: 20px;;
+    }
+
 }
