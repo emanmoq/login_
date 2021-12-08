@@ -33,7 +33,7 @@ p,h1,h2,h3,h4,h5,h6{
     margin:0;
 }
 .loginBody{
-    padding:186px 0 197px;
+    padding:150px 0 197px;
 }
 .loginBody h6{
     color:#C57A2D;
@@ -120,4 +120,12 @@ p,h1,h2,h3,h4,h5,h6{
 }
 .showPassword .fa-eye-slash{
     display: none;
+}
+@media(max-width:767px){
+    .loginBody {
+        padding:30px 0
+    }
+    .jawaherLogo{
+        margin:10px 0
+    }
 }
