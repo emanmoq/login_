@@ -127,16 +127,20 @@ p,h1,h2,h3,h4,h5,h6{
 }
 @media(max-width:767px){
     .loginBody {
-        padding:30px 0
+        padding:30px 0 10px
     }
     .jawaherLogo{
         margin:10px 0
     }
-    .loginImg{
-        margin-bottom: 40px;
-    }
+
     .loginBody h6{
-        margin-bottom: 20px;;
+        margin-bottom: 5px;;
+    }
+    .loginBody .form-group{
+        margin-bottom: 5px;;
+    }
+    .startLink{
+        margin-top:20px;
     }
 
 }
