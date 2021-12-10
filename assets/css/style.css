@@ -1,6 +1,6 @@
 @font-face {
     font-family:'FrutigerRoman' ;
-    src: url(../fonts/Frutiger\ LT\ 55\ Roman.ttf);
+    src: url("../fonts/Frutiger_LT_55_Roman.ttf");
 }
 body{
     background-color: #EEF3FA;
@@ -8,7 +8,8 @@ body{
     font-weight: 400;
     direction: rtl;
     text-align: right;
-    background-image: url(../Images/background.png);
+    font-family:'FrutigerRoman' ;
+    background-image: url(../Images/background.svg);
     background-size: cover;
 }
 ul{
@@ -120,6 +121,9 @@ p,h1,h2,h3,h4,h5,h6{
 }
 .showPassword .fa-eye-slash{
     display: none;
+}
+svg{
+    width:100%;
 }
 @media(max-width:767px){
     .loginBody {
