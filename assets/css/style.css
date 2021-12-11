@@ -126,7 +126,7 @@ p,h1,h2,h3,h4,h5,h6{
 .loginBody svg{
     width:100%;
 }
-@media(max-width:767px){
+@media(max-width:850px){
     .loginBody {
         padding: 0 
     }
