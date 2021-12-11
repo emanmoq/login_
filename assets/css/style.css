@@ -131,7 +131,9 @@ p,h1,h2,h3,h4,h5,h6{
         padding: 0 
     }
     .jawaherLogo{
-        margin:10px 0
+        width:90%;
+        margin:10px auto;
+
     }
 
     .loginBody h6{
@@ -139,6 +141,10 @@ p,h1,h2,h3,h4,h5,h6{
     }
     .loginBody .form-group{
         margin-bottom: 5px;;
+    }
+    .loginImg{
+        width:90%;
+        margin:auto
     }
     .startLink{
         margin-top:20px;
