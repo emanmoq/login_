@@ -12,6 +12,7 @@ body{
     background-image: url(../Images/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 ul{
     padding:0;
@@ -131,8 +132,7 @@ p,h1,h2,h3,h4,h5,h6{
         padding: 0 
     }
     .jawaherLogo{
-        min-width: 70%;
-        max-width:88%;
+        width: 75%;
         margin:10px auto;
         margin-bottom: 20px;
         
@@ -146,8 +146,7 @@ p,h1,h2,h3,h4,h5,h6{
         margin-bottom: 5px;;
     }
     .loginImg{
-        min-width: 70%;
-        max-width:80%;
+        width: 75%;
         margin:auto
     }
     .startLink{
