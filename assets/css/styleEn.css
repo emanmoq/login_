@@ -1,0 +1,167 @@
+@font-face {
+    font-family:'FrutigerRoman' ;
+    src: url("../fonts/Frutiger\ LT\ Arabic\ 55\ Roman.ttf");
+}
+body{
+    background-color: #EEF3FA;
+    font-size: 16px;
+    font-weight: 400;
+    direction: ltr;
+    text-align: left;
+    font-family:'FrutigerRoman' ;
+    background-image: url(../Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+ul{
+    padding:0;
+    margin:0;
+}
+li{
+    margin:0;
+    padding:0;
+}
+img{
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+a:hover{
+    text-decoration: none;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+.loginBody{
+    padding:150px 0 197px;
+}
+.loginBody h6{
+    color:#C57A2D;
+    font-family: 'FrutigerRoman';
+    margin-top:20px;
+    margin-bottom: 48px;
+    text-align: center;
+    font-size: 1.25em;
+}
+.loginBody  .form-group{
+    position: relative;
+}
+.loginBody  .form-group:first-child {
+    margin-bottom: 20px;;
+}
+.loginBody  .form-group:last-child{
+    margin-bottom: 13px;;
+}
+.loginBody  .form-group label{
+    font-family: 'FrutigerRoman';
+    font-size: 0.8125em;
+    color: black;
+    margin-bottom: 6px;;
+}
+.loginBody  .form-group .form-control{
+    width:100%;
+    height: 45px;
+    border-radius: 5px;;
+    color:#DBDBDB;  
+    font-family: 'FrutigerRoman';
+  font-size: 0.8125em;
+  border:1px solid #CBDAF2;
+}
+.loginBody  .form-group .form-control::placeholder{
+    color:#DBDBDB;  
+      font-family: 'FrutigerRoman';
+    font-size: 0.8125em;
+}
+.jawaherLogo{
+    width:100%;
+    margin-bottom: 35px;;
+}
+.forgetLink{
+    float: left;
+    margin-bottom: 30px;
+    color:#7A7A7A;
+    font-family: 'FrutigerRoman';
+    font-size: 0.8125em;
+}
+.forgetLink:hover{
+    color: #C57A2D;
+}
+.loginBtn{
+    width:100%;
+    background-color: #18355C;
+    color:white;
+    font-family: 'FrutigerRoman';
+    font-size: 0.9125em;
+    height:55px;
+    border:1px solid #18355C;
+    transition: all .5s;;
+}
+.loginBtn:hover{
+    background-color: rgba(255,255,255,.75);
+    color:#18355C;
+    transition: all .5s;;
+
+}
+.startLink{
+    color: #C57A2D;
+    display: block;
+    text-align: center;
+    margin-top: 32px;;
+}
+.showPassword{
+    position: absolute;
+    color:#A3A3A3;
+    right:10px;
+    top:55%;
+}
+.showPassword:hover{
+    text-decoration: none;
+    color:#A3A3A3;
+}
+.showPassword .fa-eye-slash{
+    display: none;
+}
+.loginBody svg{
+    width:100%;
+}
+@media(max-width:850px){
+    .loginBody {
+        padding: 0 
+    }
+    .jawaherLogo{
+        width: 65%;
+        margin:10px auto;
+        margin-bottom: 20px;
+        
+
+    }
+
+    .loginBody h6{
+        margin-bottom: 5px;;
+    }
+    .loginBody .form-group{
+        margin-bottom: 5px;;
+    }
+    .loginImg{
+        width: 65%;
+        margin:auto
+    }
+    .startLink{
+        margin-top:20px;
+    }
+.loginBody {
+    padding: 10px 0;
+}
+.loginImg svg{
+    height :auto !important
+}
+.forgetLink {
+    margin-bottom: 14px;;
+}
+.loginBtn {
+    height:45px
+}
+}
