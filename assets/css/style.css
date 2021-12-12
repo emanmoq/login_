@@ -155,6 +155,13 @@ p,h1,h2,h3,h4,h5,h6{
 .loginBody {
     padding: 10px 0;
 }
-
-
+.loginImg svg{
+    height :auto !important
+}
+.forgetLink {
+    margin-bottom: 14px;;
+}
+.loginBtn {
+    height:45px
+}
 }
