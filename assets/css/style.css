@@ -69,6 +69,7 @@ p,h1,h2,h3,h4,h5,h6{
     font-family: 'FrutigerRoman';
   font-size: 0.8125em;
   border:1px solid #CBDAF2;
+  background-color: rgba(255,255,255,.75);
 }
 .loginBody  .form-group .form-control::placeholder{
     color:#DBDBDB;  
