@@ -1,0 +1,247 @@
+body{
+    background-color: rgba(241, 247, 255,.81);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 120px;;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+li{
+    margin:0;
+    padding:0;
+}
+.headerBackground{
+    background-image: url("../Images/backgroundjawa.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius:0 0 15px 15px;
+    overflow: hidden;
+    height: 280px;
+    width:100%;
+ 
+}
+.invoiceHeader{
+    padding-bottom: 18px;
+    border-bottom: 1px solid #E5E5E5;;
+}
+.invoiceBody .row {
+    display: flex;
+    justify-content: center
+}
+
+.jawainvoice{
+    background-color:white;
+    padding:25px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    width:100%;
+}
+img{
+    width:100%;
+}
+.invoiceFooter{
+    padding:66px;
+}
+.invoiceDetails{
+    margin-top:36px;
+    margin-bottom: 32px;;
+}
+.invoiceDetailsTitle{
+    font-weight: 600;
+    color:#C57A2D;
+    margin:0;
+    margin-bottom:20px;
+    font-size:1em;
+}
+.invoiceDetailsList{
+    list-style-type: none;
+}
+.invoiceDetailsList li{
+    font-size: 1em;
+    color:#7A7A7A;
+    margin-bottom: 10px;
+    text-align: left !important;
+    justify-content: left !important;
+
+}
+.invoiceBody .row .row{
+    justify-content: left;
+}
+.invoiceBody{
+    margin-top:-240px;
+    z-index: 1;
+    position: relative;
+}
+.invoiceTable{
+    width:100%;
+    margin-top: 30px;
+}
+.invoiceTable thead{
+    width:100%;
+background-color: #F8F8F8;
+
+
+}
+.invoiceTable thead tr th{
+    color:#7A7A7A;
+    font-weight: 500;
+    padding:11px 0;
+ 
+}
+.invoiceTable tbody tr td {
+    padding:11px 0;
+    color:#7A7A7A;
+}
+.invoiceTable tbody tr {
+    border-bottom:1px solid #DBDBDB;
+}
+.invoiceTotal{
+    background-color: #F8F8F8;
+    border-radius:  0 0 5px 5px;
+    overflow: hidden;
+    float: RIGHT;
+    width:45%;
+    padding:14px 16px;
+    height: 210px;
+    overflow: hidden;
+}
+.invoiceTable p{
+    margin:0
+}
+.clearfix{
+    overflow: auto;
+}
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.jawainvoice{
+    overflow: auto;
+}
+.invoiceTotal ul {
+    list-style-type: none;
+}
+.invoiceTotal ul li:first-child{
+    padding-bottom: 10px;
+}
+.invoiceTotal ul li{
+    width:100%;
+
+    margin-bottom:15px;
+    padding-left:15px;
+}
+.invoiceTotal ul li:first-child{
+    border-bottom: 1px solid #DBDBDB;
+}
+.invoiceTotal ul li span:last-child{
+    float:right
+}
+.invoiceTotalTitle span{
+    color:#18355C;
+    font-weight: 500;
+    font-size: 1em;;
+}
+.invoiceTotalTitle span:first-child{
+    float: left;
+}
+.invoiceTotalTitle span:last-child{
+    float:right
+}
+.invoiceTotalDetails span:first-child{
+    float: left;
+}
+.invoiceTotalDetails span:last-child{
+    float:right
+}
+.invoiceTotal p{
+    margin:0;
+}
+.invoiceTotal .invoiceDetailsTitle{
+margin:0;
+}
+.invoiceNote{
+padding:30px 0;
+    margin-top:66px;
+    border-top: 1px solid #DBDBDB;
+    border-bottom: 1px solid #DBDBDB;
+}
+.invoiceNote p{
+    color:#7A7A7A;
+} 
+.invoiceNote  h4{
+ margin-bottom: 19px;
+}
+.invoiceTotalDetails .invoiceDetailsTitle{
+    font-size: 1em;;
+    font-weight: 700;
+}
+.invoiceTotalFooter p{
+    margin:0;
+    color:#7A7A7A
+}
+.invoiceTotalFooter  p:last-child{
+    font-weight: 500;
+    font-size: .98em;
+}
+.invoiceTotal ul li:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.qrCodeImg{
+    float:left;
+    width:184px;
+    margin-top:23px;
+}
+@media (min-width:767px) and (max-width:1300px){
+    body{
+        font-size:10px;
+        padding-bottom: 100px;
+    }
+    .headerBackground{
+        height:200px;
+    }
+    .invoiceBody{
+        margin-top:-150px
+    }
+    .jawainvoice{
+        padding:10px
+    }
+}
+@media (max-width:767px){
+    .qrCodeImg {
+        float: none;
+        margin: 10px auto;}
+    body{
+        font-size:7px;
+        padding-bottom: 80px;
+    }
+    .invoiceTotal{
+        width:100%;
+    }
+    .invoiceFooter{
+        padding:20px 0
+    }
+    .headerBackground{
+        height:170px;
+    }
+    .invoiceBody{
+        margin-top:-120px
+    }
+    .jawainvoice{
+        padding:10px;
+    }
+    .invoiceDetails{
+        margin-top: 15px;
+    }
+    .invoiceDetailsTitle{
+        margin-bottom: 10px;;
+    }
+    .invoiceBody li.row{
+        display: block;
+    }
+}
